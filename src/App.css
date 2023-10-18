@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
-}
+.ytContainer{
+  padding-left: 77px;
+    margin: 19px;
+    padding-right: 48px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 439px 407px;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.youtube-card{
+  width: 350px;
+  height: 247px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.subHeading{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 5px;
+  
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  margin-left: 5px ;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.likeViews{
+  display: flex;
+  margin-top: -29px;
+  justify-content: space-around;
+  color: rgb(107, 104, 102);
+  text-decoration: none;
 }
+@media only screen and (min-width: 480px) {
+  /* styles for devices with a minimum screen width of 480px */
+  }
+  
+  @media only screen and (max-width: 480px) {
+  /* styles for devices with a maximum screen width of 480px */
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
